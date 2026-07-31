@@ -1,16 +1,106 @@
-# React + Vite
+# 🏗️ Construction Project Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple full-stack **Construction Project Management System** built using the **MERN Stack**. This application allows authenticated users to manage construction projects by adding, updating, viewing, and deleting project records.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* User Authentication (Login & Register)
+* JWT-based Authorization
+* Add New Projects
+* View All Projects
+* Edit Project Details
+* Delete Projects
+* Project Status Management
+* Budget and Timeline Tracking
+* Basic Form Validation
+* Responsive User Interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* React Router
+* Tailwind CSS
+* Axios
+* React Toastify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* JWT Authentication
+* bcrypt
+
+## 📂 Project Structure
+
+```text
+Frontend/
+Backend/
+```
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone <your-repository-url>
+```
+
+### Backend Setup
+
+```bash
+cd Backend
+npm install
+npm start
+```
+
+### Frontend Setup
+
+```bash
+cd Frontend
+npm install
+npm run dev
+```
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the backend folder.
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+## 📌 API Endpoints
+
+### Authentication
+
+* POST `/api/auth/register`
+* POST `/api/auth/login`
+
+### Projects
+
+* GET `/api/projects`
+* POST `/api/projects`
+* PUT `/api/projects/:id`
+* DELETE `/api/projects/:id`
+
+## 📷 Screens
+
+* Login
+* Register
+* Dashboard
+* Add Project
+* Edit Project
+
+## 👨‍💻 Author
+
+**Abhay**
+
+---
+
+This project was developed as part of a **Full Stack Developer Assessment** to demonstrate CRUD operations, JWT authentication, and responsive UI development using the MERN Stack.
