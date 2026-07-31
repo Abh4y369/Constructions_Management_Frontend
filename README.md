@@ -1,4 +1,4 @@
-# 🏗️ Construction Project Management System
+# Construction Project Management System
 
 A simple full-stack **Construction Project Management System** built using the **MERN Stack**. This application allows authenticated users to manage construction projects by adding, updating, viewing, and deleting project records.
 
@@ -15,7 +15,7 @@ A simple full-stack **Construction Project Management System** built using the *
 * Basic Form Validation
 * Responsive User Interface
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -34,7 +34,7 @@ A simple full-stack **Construction Project Management System** built using the *
 * JWT Authentication
 * bcrypt
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Frontend/
@@ -65,7 +65,7 @@ npm install
 npm run dev
 ```
 
-## 🔑 Environment Variables
+## Environment Variables
 
 Create a `.env` file inside the backend folder.
 
@@ -75,7 +75,7 @@ JWT_SECRET=your_secret_key
 PORT=5000
 ```
 
-## 📌 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -97,7 +97,7 @@ PORT=5000
 * Add Project
 * Edit Project
 
-## 👨‍💻 Author
+## Author
 
 **Abhay**
 
